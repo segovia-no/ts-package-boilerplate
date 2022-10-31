@@ -1,7 +1,7 @@
 {
-  "name": "ts-package",
+  "name": "ts-package-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate for a Typescript package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
