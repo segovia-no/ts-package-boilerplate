@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "build:sample_math": "tsc --build ./partial_builds/samples_math_pkg.json",
-    "build:sample_strings": "tsc --build ./partial_builds/samples_strings_pkg.json",
+    "build:sample_math": "tsc --build ./partial_builds_configs/samples_math_pkg.json",
+    "build:sample_strings": "tsc --build ./partial_builds_configs/samples_strings_pkg.json",
     "test": "jest"
   },
   "author": "Diego Segovia",
