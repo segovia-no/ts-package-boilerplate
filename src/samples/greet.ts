@@ -1,5 +1,5 @@
-const greet = (name: string): void => {
-  console.log(`Hello ${name}`)
+const greet = (name: string): string => {
+  return `Hello ${name}`
 }
 
 export { greet }
