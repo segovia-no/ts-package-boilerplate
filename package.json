@@ -2,13 +2,15 @@
   "name": "ts-package-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate for a Typescript package",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/full_build/index.js",
+  "types": "dist/full_build/index.d.ts",
   "files": [
-    "/dist"
+    "/dist/full_build"
   ],
   "scripts": {
     "build": "tsc",
+    "build:sample_math": "tsc --build ./partial_builds/samples_math_pkg.json",
+    "build:sample_strings": "tsc --build ./partial_builds/samples_strings_pkg.json",
     "test": "jest"
   },
   "author": "",

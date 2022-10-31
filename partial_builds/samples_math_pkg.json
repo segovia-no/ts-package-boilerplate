@@ -3,10 +3,10 @@
     "module": "commonjs",
     "target": "ES2015",
     "sourceMap": true,
-    "outDir": "./dist/full_build",
+    "outDir": "../dist/partial_builds/samples_math",
     "strict": true,
     "declaration": true
   },
-  "include": ["src/**/*"],
+  "include": ["../src/samples_math/**/*"],
   "exclude": ["node_modules"]
 }

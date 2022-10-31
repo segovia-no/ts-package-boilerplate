@@ -1,2 +1,3 @@
 // All the exports definitions for the package
-export * from './samples'
+export * from './samples_strings'
+export * from './samples_math'
