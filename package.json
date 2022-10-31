@@ -13,8 +13,7 @@
     "build:sample_strings": "tsc --build ./partial_builds/samples_strings_pkg.json",
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Diego Segovia",
   "devDependencies": {
     "@types/jest": "^29.2.0",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
